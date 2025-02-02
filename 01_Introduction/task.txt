@@ -1,0 +1,5 @@
+1. Create a route that responds with your name at /name. Example: Visiting http://localhost:3000/name should return your name.
+
+2. Create a new route at /about that responds with a brief description of Express.js.
+
+3. Change the port number to 4000 and verify it works.
