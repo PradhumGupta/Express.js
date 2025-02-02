@@ -1,0 +1,6 @@
+1. Create routes for /home, /services, and /contact.
+    Each route should respond with relevant text.
+2. Add a route /user/:username that displays the username passed in the URL.
+3. Implement a query string-based route /search?q=term and display the search term.
+4. Create a "catch-all" 404 error handler.
+5. Build a /blog route with a parameter for post IDs and a query string for sorting (e.g., /blog/12?sort=asc).
