@@ -1,0 +1,5 @@
+1. Create a custom logger middleware that logs the request method and path.
+2. Add middleware to parse incoming JSON and URL-encoded form data.
+3. Implement a router-level middleware for /admin routes with basic authentication.
+4. Create a route /test-error that triggers an error and handle it with error-handling middleware.
+5. Use morgan to log all incoming requests in the development format.
