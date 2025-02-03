@@ -1,0 +1,17 @@
+1. Basic Static File Setup:
+    Create a public folder with:
+        index.html: A simple homepage.
+        style.css: Some basic styles.
+        app.js: A simple JavaScript file with console.log.
+
+2. Virtual Path:
+    Serve files under /static instead of the root path.
+
+3. Multiple Directories:
+    Create another folder, assets, and add some files. Serve it alongside public.
+
+4. Caching:
+    Configure caching for your static files and test it using browser developer tools.
+
+5. Dynamic Data Injection:
+    Serve an HTML file using sendFile() and include a route to inject a username dynamically (e.g., Welcome, John!).
