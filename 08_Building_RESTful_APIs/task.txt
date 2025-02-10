@@ -1,0 +1,18 @@
+1. Basic API Development:
+
+    Create an API to manage a list of students with attributes id, name, age, and class.
+
+2. Validation:
+
+    Add validation to ensure that age is a number and name is not empty in the students' API.
+
+3. Advanced Task:
+
+    Create an API for a todo list application with the following rules:
+        task (string, required, at least 3 characters).
+        status (boolean, defaults to false if not provided).
+        deadline (valid date).
+
+    Enhance validation by ensuring that:
+        status must be either true or false.
+        deadline must be a valid future date.

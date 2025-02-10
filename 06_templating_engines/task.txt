@@ -1,0 +1,4 @@
+1. Create a route /profile that renders a user profile page using an EJS template. Pass the user's name, age, and profession to the template.
+2. Create a route /products that lists an array of product names in a dynamically rendered HTML list.
+3. Add a footer.ejs partial and include it in all your templates.
+4. Create a route /error-demo that simulates an error and displays a message using a conditional in the template.

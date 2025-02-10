@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+
+    <%  if(err) { %>
+            <p style="color: red;"> <%= err %> </p> 
+    <%  } else { %>
+        <%  if(!user) { %>
+            <h3>No user data available</h3>
+        <%  } else { %>
+            <h1>Profile Page</h1>
+            <h2>Information</h2>
+            <h3>Name : <%= user.name %> </h3>
+            <h3>Age : <%= user.age %> </h3>
+            <h3>Profession : <%= user.work %> </h3>
+        <%  }  %>
+    <%  }  %>
+
+    <%- include('footer') %>  <!-- Include the footer partial -->
+
+</body>
+</html>
